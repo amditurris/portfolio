@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.M.D.T.</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sobremi.css">
+    <link rel="stylesheet" href="css/habilidades.css">
+    <link rel="stylesheet" href="css/trabajos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <!-- Fuente Iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--FUENTE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <!--Animación-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<body class="grid-container">
+
+    <header class="header" id="idheader"></header>
+
+    <article class="main">
+        <a name="main"></a>
+        <h1>Hola,<br>soy Anto Di Turris,<br>desarrolladora full stack.</h1>
+        <h6>Front end - Back end - Analista de datos</h6>
+        <p><a class="button" href="#contacto">CONTACTAME!</a></p>
+    </article>
+
+    <article class="sobremi">
+        <a name="sobremi"></a>
+        <h1>Te cuento un poco más sobre mi.</h1>
+        <p>Estoy comenzando a dar mis primeros pasos como desarrolladora fullstack con mucho entusiasmo y ganas de aprender, actualmente residiendo en mi ciudad natal: Buenos aires, Argentina.
+            <br> 
+            <br> 
+        Soy una estudiante de Ingeniería en Alimentos con amplia experiencia profesional en diversos rubros,
+        especializada en el trato cálido hacia el cliente con orientación en la realización simultánea de tareas
+        y una marcada línea en el cumplimiento de objetivos, trabajando tanto en español como en inglés y en portugués.
+        Cuento con una gran capacidad de trabajo en grupo, liderazgo de equipos de manera virtual con gente a cargo en diferentes países gracias a una trabajada comunicación efectiva.
+            <br> 
+            <br>    
+        Me gustan los desafíos y me destaco por un constante interés en adquirir nuevos conocimientos.</p>
+    </article>
+
+    <article class="habilidades">
+        <a name="habilidades"></a>
+        <div class="flex-container3">
+            <figure><img class="imagen" src="img/html.png" width="100" height="100"></figure>
+            <figure><img class="imagen" src="img/css.png" width="100" height="100"></figure>
+            <figure><img class="imagen" src="img/js.png" width="100" height="100"></figure>
+            <figure><img class="imagen" src="img/git.png" width="100" height="100"></figure>
+            <figure><img class="imagen" src="img/sql.png" width="100" height="100"></figure>
+            <figure><img class="imagen" src="img/bootstrap.png" width="100" height="100"></figure>
+            <figure><img class="imagen" src="img/python.png" width="100" height="100"></figure>
+          </div>
+    </article>
+    
+    <article class="trabajos">
+        <a name="trabajos"></a>
+        <h1>Pronto incluiré aquí mis trabajos realizados.</h1>
+    </article>
+
+    <article class="contacto">
+        <a name="contacto"></a>
+        <div class="flex-container">
+            <h1>Contactame.</h1>
+            <div class="flex-container1">
+                <div class="contenedor-form">
+                <form action="" method="post" id="formulario" onsubmit="return validar();">
+                    <input  type="text" name="nombre" id="nombre" placeholder="*Nombre:" size="10" maxlength="30" class="medios" required>
+         
+                    <input  type="text" name="apellido" id="apellido" placeholder="*Apellido:" size="10" maxlength="20" class="medios" required>
+
+                    <input  type="email" name="correo" id="correo" placeholder="*Email:" size="10" maxlength="50" class="medios" required>
+      
+                    <input type="text" name="empresa" id="empresa" placeholder="Empresa:" size="39" maxlength="20" class="medios">
+
+                    <input  type="text" name="asunto" id="asunto" placeholder="*Asunto:" size="39" maxlength="50" class="total"  required>
+
+                    <!--<label for="lconsulta">Consulta: </label> -->
+                    <textarea  name="consulta" id="consulta" rows="6" cols="40" placeholder="*Escribe tu consulta.." class="total" required></textarea>
+
+                    <input class="submit" id="btn" type="submit" value="Contactame!">
+                </form>
+
+                <div id="error"></div>
+                
+            </div>
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.44366970648!2d-58.503338076788324!3d-34.615662458658974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1652480959210!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </article>
+
+    <!--Menú externo-->
+    <script src="js/scripts2.js"></script>
+
+    <!--Validación de Formulario-->
+    <script src="js/Formulario.js"></script>
+
+</body>
+</html>

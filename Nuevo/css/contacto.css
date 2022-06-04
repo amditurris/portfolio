@@ -1,0 +1,141 @@
+
+.contacto h1 {
+    text-align: left;
+    font-size: 1.2cm;
+    color: #E9EFF2;
+    padding: 5rem 0rem 1.25rem 5.5rem;
+    line-height: 1.5;
+}
+
+.formulario {
+    width: 80%;
+    max-width: 31.25em;
+    margin: auto;
+}
+
+.contenedor-form {
+    font-size: 0.8cm;
+    line-height: 1.6;
+    color: #E9EFF2;
+    text-align: left;
+    padding-left: 2rem;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.medios {
+    width: 48.4%;
+}
+
+.total {
+    width: 98.5%;
+}
+
+Input, textarea {
+    background-color: #BACDD9;
+    color: #4F6F8C;
+    padding : 0.8rem 0.15rem;
+    margin: 5px 0px;
+    font-size: 0.5cm;
+    justify-content: space-between;
+    border-radius: 0.625rem;
+    border: 1px solid #4F6F8C;
+}
+
+.submit {
+    margin: 0;
+    padding: 0.625em;
+    border:solid;
+    border-color: #4F6F8C;
+    border-width: 0.5mm;
+    color: #1E3859;
+}
+
+.submit:hover {
+    background-color: #4F6F8C;
+    color: #E9EFF2;
+  }
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+} 
+
+.flex-container1 {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+}
+
+/* Computadoras grandes, 1200px o más*/
+@media (max-width: 1200px) {
+
+}
+
+/* Computadoras, 992px o más*/
+@media (max-width: 992px) {
+
+}
+
+/* Tablets, 795px o más */
+@media (max-width: 795px) {
+    .flex-container, .flex-container1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto h1 {
+        text-align: left;
+        font-size: 1.2cm;
+        color: #E9EFF2;
+        padding: 5rem 0rem 1.25rem 11rem;
+        line-height: 1.5;
+    }
+
+    .contenedor-form {
+        font-size: 0.8cm;
+        padding: 2rem 2rem;
+        width: 80%;
+    }
+
+    iframe {
+        padding: 4rem 0rem;
+        width: 70%;
+        height: 50rem;
+    }
+}
+
+/* Teléfonos, 576px o más*/
+@media (max-width: 576px) {
+    .flex-container, .flex-container1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    Input, textarea {
+        font-size: 1.1cm;
+    }
+
+    .contacto h1 {
+        text-align: left;
+        font-size: 1.3cm;
+        color: #E9EFF2;
+        padding: 5rem 0rem 1.25rem 11rem;
+        line-height: 1.5;
+    }
+
+    .contenedor-form {
+        font-size: 0.8cm;
+        padding: 2rem 2rem;
+        width: 80%;
+    }
+
+    iframe {
+        padding: 4rem 0rem;
+        width: 70%;
+        height: 50rem;
+    }
+}

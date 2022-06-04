@@ -1,0 +1,138 @@
+
+.main h1 {
+    text-align: left;
+    font-size: 2.2em;
+    color: #BACDD9;
+    font-family: 'Lexend Deca', sans-serif;
+    letter-spacing: 0.5rem;
+    padding: 8rem 0rem 0rem 30rem;
+    line-height: 1.5;
+    animation: backInLeft;
+    animation-duration: 0.8s;
+    z-index: 99;
+    position: relative;
+}
+
+h6 {
+    text-align: left;
+    color: #BACDD9;
+    font-size: 1.02em;
+    font-family: Tahoma, sans-serif;
+    padding: 1.125rem 0rem 0rem 30rem;
+    animation: backInLeft;
+    animation-duration: 0.8s;
+    z-index: 99;
+    position: relative;
+}
+
+.button {
+    border:solid;
+    border-color:#BACDD9;
+    border-width: 0.5mm;
+    color: #BACDD9;
+    padding: 0.94em 2em;
+    margin: 30em;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: none;
+    font-weight: bolder;
+}
+
+.button:hover {
+    background-color: #BACDD9;
+    color: #4F6F8C;
+  }
+
+.main p {
+    text-align: left;
+    padding-top:3.125em;
+    animation: backInLeft;
+    animation-duration: 0.8s;
+    z-index: 99;
+    position: relative;
+}
+
+
+/* Computadoras grandes, 1200px o más*/
+@media (max-width: 1200px) {
+
+    .main h1 {
+        padding: 8rem 0rem 0rem 20rem;
+    }
+    
+    h6 {
+        padding: 1.125rem 0rem 0rem 20rem;
+    }
+    
+    .button {
+        margin: 20rem;
+    }
+
+}
+
+/* Computadoras, 992px o más*/
+@media (max-width: 992px) {
+
+    .main h1 {
+        font-size: 2.8em;
+        letter-spacing: 0.5rem;
+        padding: 8rem 0rem 0rem 20rem;
+        line-height: 1.5;
+    }
+    
+    h6 {
+        font-size: 1.23em;
+        padding: 1.125rem 0rem 0rem 20rem;
+    }
+    
+    .button {
+        padding: 0.94em 2em;
+        margin: 20rem;
+        font-size: 1.3em;
+    }
+}
+
+/* Tablets, 795px o más */
+@media (max-width: 795px) {
+    .main h1 {
+        font-size: 2.8em;
+        letter-spacing: 0.5rem;
+        padding: 8rem 0rem 0rem 13rem;
+        line-height: 1.5;
+    }
+    
+    h6 {
+        font-size: 1.23em;
+        padding: 1.125rem 0rem 0rem 13rem;
+    }
+    
+    .button {
+        padding: 0.94em 2em;
+        margin: 13rem;
+        font-size: 1.3em;
+    }
+
+}
+
+/* Teléfonos, 576px o más*/
+@media (max-width: 576px) {
+
+    .main h1 {
+        font-size: 3.2em;
+        letter-spacing: 0.5rem;
+        padding: 4.5rem 0rem 0rem 7rem;
+        line-height: 1.3;
+    }
+    
+    h6 {
+        font-size: 2.2em;
+        padding: 1.125rem 0rem 0rem 7rem;
+    }
+    
+    .button {
+        padding: 0.94em 1em;
+        margin: 7rem;
+        font-size: 2em;
+    }
+}

@@ -1,0 +1,60 @@
+.sobremi h1 {
+    text-align: left;
+    font-size: 2.5em;
+    color: #E9EFF2;
+    padding: 4rem 0rem 1.1rem 30rem;
+    line-height: 1.5;
+}
+
+.sobremi p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #1E3859;
+    text-align: left;
+    padding-left: 30rem;
+    width: 70%;
+}
+
+
+/* Computadoras grandes, 1200px o más*/
+@media (max-width: 1200px) {
+    .sobremi h1 {
+        padding: 3rem 0rem 1.1rem 20rem;
+    }
+    .sobremi p {
+        padding-left: 20rem;
+    }
+}
+
+/* Computadoras, 992px o más*/
+@media (max-width: 992px) {
+    .sobremi p {
+        font-size: 1.2em;
+        width: 75%;
+    }
+}
+
+/* Tablets, 795px o más */
+@media (max-width: 795px) {
+    .sobremi h1 {
+        padding: 5rem 0rem 1.1rem 13rem;
+    }
+    .sobremi p {
+        padding-left: 13rem;
+    }
+}
+
+/* Teléfonos, 576px o más*/
+@media (max-width: 576px) {
+
+    .sobremi h1 {
+        padding: 5rem 0rem 1.1rem 7rem;
+        font-size: 4rem;
+    }
+    .sobremi p {
+        padding-left: 7rem;
+        font-size: 2.2rem;
+        width: 85%;
+    }
+}
+

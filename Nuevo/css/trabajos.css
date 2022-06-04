@@ -1,0 +1,28 @@
+.trabajos h1 {
+    color: #1E3859;
+    padding-top: 5rem;
+    animation: zoomOutUp;
+    animation-duration: 1.5s;
+}
+
+/* Computadoras grandes, 1200px o más*/
+@media (max-width: 1200px) {
+
+}
+
+/* Computadoras, 992px o más*/
+@media (max-width: 992px) {
+
+}
+
+/* Tablets, 795px o más */
+@media (max-width: 795px) {
+
+}
+
+/* Teléfonos, 576px o más*/
+@media (max-width: 576px) {
+    .trabajos h1 {
+        font-size: 2.5rem;
+    }
+}
